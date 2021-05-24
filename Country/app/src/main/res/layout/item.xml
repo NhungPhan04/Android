@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:id="@+id/picture"
+                   android:layout_margin="5dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/thongtin"
+                android:text="Thông tin quốc gia"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="5dp">
+
+            </TextView>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tenquocgia"
+                android:text="Tên quốc gia : "
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+               >
+            </TextView>
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/tenquocgia_giatri"
+                   android:textColor="@color/black"
+                   android:textSize="20dp">
+
+               </TextView>
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/danso"
+                android:text="Dân số : "
+                android:textSize="20dp"
+                android:padding="5dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/danso_giatri"
+                    android:textSize="20dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dientich"
+                android:text="Diện tích : "
+                android:textSize="20dp"
+                android:padding="5dp"
+            android:textColor="@color/black">
+
+            </TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dientich_giatri"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+         <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center">
+             <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/back"
+                    android:text="Trở lại"
+                    android:gravity="center"
+                    android:backgroundTint="@color/black">
+
+              </Button>
+         </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
